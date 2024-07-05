@@ -1,0 +1,38 @@
+﻿Anime Recommendation System Report
+
+
+Overview:
+This project recommends anime based on two different models.
+One of the models is content based which means it relies on similarity between animes cosin similarity was used to measure similarities and TF-IDF was used to make the evaluation matrix.
+
+
+The second is collaborative based which means we use the user ratings to predict if a user is going to like an anime based on other users who rated other animes.
+______________________________________________
+
+
+Implementation:
+get_recommendation function which applies the content based system and takes anime name as a parameter and returns list of recommendations based on genre
+
+
+find_similar_anime function which applies the collaborative system which takes the anime_id and returns a list of recommendations based on user ratings
+______________________________________________
+
+
+About the model:
+Already trained on https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database
+data set
+______________________________________________
+
+
+How to use the project:
+Simply pass an anime name to get_recommendation function (content based) or pass an id to find_similar_anime function (collaborative based) to get a list of recommendations that suits your tastes.
+______________________________________________
+
+
+List of contributors:
+معاذ ممدوح فوزي احمد                                                       20221454751
+محمد هشام محمد حسن عبد الرؤف                                20221454743
+محمد مراد حسين على سليمان                                        20221454741
+عمار محمد عبد الباسط محمد                                        20221445620
+عابد وليد محمد عبد اللطيف                                        2022137447
+============================================

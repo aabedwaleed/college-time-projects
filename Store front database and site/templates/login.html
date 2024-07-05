@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="Viewport" content="Width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CHIQUE</title>
+	<link rel="stylesheet" type="text/css" href="../static/Image/shop.css">
+  </head>
+<body>
+    <header class="header">
+        <div class="header-1">
+          <a href="/" class="logo"><i class="fas fa-shopping-cart"></i>shique</a> 
+        </div>
+      </header>
+    <div class="login-form-container">
+        <form method="POST">
+            <h3>Login</h3>
+			{% if error %}
+				<p style="color: red;">{{ error }}</p>
+			{% endif %}
+            <span>username</span>
+            <input type="text" name="username" class="box" placeholder="enter your username" id="">
+            <span>password</span>
+            <input type="password" name="password" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me </label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password?? <a href="#">recover it</a></p>
+            <p> Dont' have an account? <a href="/signup">create one</a></p>
+        </form>
+    </div>
+</body>    
+</html>    

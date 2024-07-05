@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="Viewport" content="Width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CHIQUE</title>
+	<link rel="stylesheet" type="text/css" href="../static/Image/shop.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-1">
+        <a href="/main" class="logo"><i class="fas fa-shopping-cart"></i>shique</a>
+        <form method = "POST" action="" class="search-form">
+          <input type="search" name="" placeholder="search here ....." id="search-box">
+          <label for="search-box" class="fas fa-search"></label>
+        </form> 
+
+        <div class="right-menu">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="/" class="fas fa-user"></a>
+        </div>
+      </div>
+    </header>
+    <section class="footer">
+      <div class="box-continer">
+        
+        <div class="box">
+          <h3>our locations</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-camp cesar</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-agamy</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-roshdy</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-smouha</a>
+        </div>
+
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="/men"><i class="fas fa-arrow-right"></i>men clothes</a>
+          <a href="/women"><i class="fas fa-arrow-right"></i>Women clothes</a>
+        </div>
+
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>payment methods</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+        </div>
+
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i>01254875955</a>
+          <a href="#"><i class="fas fa-envelope"></i>shique@gmail.com</a>
+        </div>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+      <p class="credit">Created by Abdelrahman Ashoor.© 2023</p>
+    </section>
+</html>    

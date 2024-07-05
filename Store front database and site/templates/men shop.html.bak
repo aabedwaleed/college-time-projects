@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="Viewport" content="Width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CHIQUE</title>
+	<link rel="stylesheet" type="text/css" href="../static/Image/shop.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-1">
+        <a href="/main" class="logo"><i class="fas fa-shopping-cart"></i>shique</a>
+
+        <form action="" class="search-form">
+          <input type="search" name="" placeholder="search here....." id="search-box">
+          <label for="search-box" class="fas fa-search"></label>
+        </form> 
+       
+        <div class="right-menu">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="/" class="fas fa-user"></a>
+        </div>
+      </div>
+    </header>
+    <h2>mens product</h2>
+    <main>
+      <div class="product">
+        <img src="..\static\Image\image 1.jpg." alt="Product 1">
+        <h3>Perry Ellis Men's Winter Jacket </h3>
+        <p>500 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 2.jpg" alt="Product 2">
+        <h3>Men's Casual Baseball Jacket - Focus</h3>
+        <p>250 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 3.jpg" alt="Product 3">
+        <h3>Firewood Mens Camouflage Jacket</h3>
+        <p>450 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 4.jpg" alt="Product 4">
+        <h3>Adidas Men Manchester United Condivo 22 Presentation Track Top FOOTBALL/SOCCER TRACK TOPS for Men TRACKSUIT JACKET</h3>
+        <p>1000 EGPs</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 5.jpg" alt="Product 5">
+        <h3>Adidas Men Real Madrid Condivo 22 Presentation Track Top FOOTBALL/SOCCER TRACK TOPS for Men TRACKSUIT JACKET</h3>
+        <p>1500 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 6.jpg" alt="Product 6">
+        <h3>Biker Leather Jacket Men Design Elegant - Pure Leather with zipper</h3>
+        <p>500 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 7.jpg" alt="Product 7">
+        <h3>Men WILSON Sweatpants</h3>
+        <p>300 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 8.jpg" alt="Product 8">
+        <h3>GORDON Men's Regular Fit Track Pants</h3>
+        <p>450 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+      <div class="product">
+        <img src="..\static\Image\image 9.jpg" alt="Product 9">
+        <h3>American Eagle Men Fleece Sweatpant</h3>
+        <p>500 EGP</p>
+        <a class="buy-button" href="#">Buy Now</a>
+        <a class="sell-button" href="#">put it in cart</a>
+      </div>
+    </main> 
+    <section class="footer">
+      <div class="box-continer">
+        
+        <div class="box">
+          <h3>our locations</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-camp cesar</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-agamy</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-roshdy</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Alexandria-smouha</a>
+        </div>
+
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="{{url_for('main_page')}}"><i class="fas fa-arrow-right"></i>Home</a>
+          <a href="{{url_for('women_shop')}}"><i class="fas fa-arrow-right"></i>Women clothes</a>
+        </div>
+
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>payment methods</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+        </div>
+
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i>01254875955</a>
+          <a href="#"><i class="fas fa-envelope"></i>shique@gmail.com</a>
+        </div>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+      <p class="credit">Created by Abdelrahman Ashoor.© 2023</p>
+    </section>
+</html>    
